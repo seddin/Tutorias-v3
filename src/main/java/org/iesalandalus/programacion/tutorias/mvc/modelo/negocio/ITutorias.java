@@ -7,6 +7,10 @@ import javax.naming.OperationNotSupportedException;
 import java.util.List;
 
 public interface ITutorias {
+    void comenzar();
+
+    void terminar();
+
     List<Tutoria> get();
 
     List<Tutoria> get (Profesor profesor);
