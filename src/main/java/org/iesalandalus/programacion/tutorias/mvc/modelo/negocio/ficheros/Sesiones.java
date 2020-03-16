@@ -1,5 +1,6 @@
 package org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -9,10 +10,48 @@ import org.iesalandalus.programacion.tutorias.mvc.modelo.dominio.Sesion;
 import org.iesalandalus.programacion.tutorias.mvc.modelo.dominio.Tutoria;
 
 public class Sesiones implements org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ISesiones {
+    private static final String NOMBRE_FICHERO_SESIONES = "datos/sesiones.dat";
+
     private List<Sesion> sesiones;
     
     public Sesiones () {
         this.sesiones = new ArrayList<>();
+    }
+
+    @Override
+    public void comenzar() {
+        File fichero = new File(NOMBRE_FICHERO_SESIONES);
+        try (ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(fichero))) {
+            Sesion sesion = null;
+            do {
+                sesion = (Sesion) entrada.readObject();
+                insertar(sesion);
+            } while (sesion != null);
+        } catch (ClassNotFoundException e) {
+            System.out.println("No puedo encontrar la clase que tengo que leer.");
+        } catch (FileNotFoundException e) {
+            System.out.println("No puedo abrir el fichero de sesiones.");
+        } catch (EOFException e) {
+            System.out.println("Fichero sesiones leído satisfactoriamente.");
+        } catch (IOException e) {
+            System.out.println("Error inesperado de Entrada/Salida.");
+        } catch (OperationNotSupportedException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    @Override
+    public void terminar() {
+        File fichero = new File(NOMBRE_FICHERO_SESIONES);
+        try (ObjectOutputStream salida = new ObjectOutputStream(new FileOutputStream(fichero))){
+            for (Sesion sesion : this.sesiones)
+                salida.writeObject(sesion);
+            System.out.println("Fichero sesiones escrito satisfactoriamente.");
+        } catch (FileNotFoundException e) {
+            System.out.println("No puedo crear el fichero de sesiones.");
+        } catch (IOException e) {
+            System.out.println("Error inesperado de Entrada/Salida.");
+        }
     }
     
     @Override

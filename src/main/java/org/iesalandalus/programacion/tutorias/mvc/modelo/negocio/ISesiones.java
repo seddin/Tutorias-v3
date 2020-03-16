@@ -7,6 +7,10 @@ import javax.naming.OperationNotSupportedException;
 import java.util.List;
 
 public interface ISesiones {
+    void comenzar();
+
+    void terminar();
+
     List<Sesion> get();
 
     List<Sesion> get (Tutoria tutoria);
