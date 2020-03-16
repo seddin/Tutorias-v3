@@ -6,6 +6,11 @@ import javax.naming.OperationNotSupportedException;
 import java.util.List;
 
 public interface IModelo {
+    // Ficheros
+    void comenzar();
+
+    void terminar();
+
     // Insertar
     void insertar (Alumno alumno) throws OperationNotSupportedException;
 

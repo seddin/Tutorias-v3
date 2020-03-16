@@ -24,6 +24,24 @@ public class Modelo implements IModelo {
         this.ICitas = fuenteDatos.crearCitas();
         this.IAlumnos = fuenteDatos.crearAlumnos();
     }
+
+    @Override
+    public void comenzar() {
+        this.IProfesores.comenzar();
+        this.ITutorias.comenzar();
+        this.ISesiones.comenzar();
+        this.ICitas.comenzar();
+        this.IAlumnos.comenzar();
+    }
+
+    @Override
+    public void terminar() {
+        this.IProfesores.terminar();
+        this.ITutorias.terminar();
+        this.ISesiones.terminar();
+        this.ICitas.terminar();
+        this.IAlumnos.terminar();
+    }
     
     // Insertar
     @Override
