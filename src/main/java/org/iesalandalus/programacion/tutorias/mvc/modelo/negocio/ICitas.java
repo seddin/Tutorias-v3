@@ -8,6 +8,10 @@ import javax.naming.OperationNotSupportedException;
 import java.util.List;
 
 public interface ICitas {
+    void comenzar();
+
+    void terminar();
+
     List<Cita> get();
 
     List<Cita> get (Sesion sesion);

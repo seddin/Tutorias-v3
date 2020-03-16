@@ -1,5 +1,6 @@
 package org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -11,10 +12,48 @@ import org.iesalandalus.programacion.tutorias.mvc.modelo.dominio.Sesion;
 import org.iesalandalus.programacion.tutorias.mvc.modelo.dominio.Tutoria;
 
 public class Citas implements org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ICitas {
+    private static final String NOMBRE_FICHERO_CITAS = "datos/citas.dat";
+
     private List<Cita> citas;
     
     public Citas () {
         this.citas = new ArrayList<>();
+    }
+
+    @Override
+    public void comenzar() {
+        File fichero = new File(NOMBRE_FICHERO_CITAS);
+        try (ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(fichero))) {
+            Cita cita = null;
+            do {
+                cita = (Cita) entrada.readObject();
+                insertar(cita);
+            } while (cita != null);
+        } catch (ClassNotFoundException e) {
+            System.out.println("No puedo encontrar la clase que tengo que leer.");
+        } catch (FileNotFoundException e) {
+            System.out.println("No puedo abrir el fichero de citas.");
+        } catch (EOFException e) {
+            System.out.println("Fichero citas leído satisfactoriamente.");
+        } catch (IOException e) {
+            System.out.println("Error inesperado de Entrada/Salida.");
+        } catch (OperationNotSupportedException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    @Override
+    public void terminar() {
+        File fichero = new File(NOMBRE_FICHERO_CITAS);
+        try (ObjectOutputStream salida = new ObjectOutputStream(new FileOutputStream(fichero))){
+            for (Cita cita : this.citas)
+                salida.writeObject(cita);
+            System.out.println("Fichero citas escrito satisfactoriamente.");
+        } catch (FileNotFoundException e) {
+            System.out.println("No puedo crear el fichero de citas.");
+        } catch (IOException e) {
+            System.out.println("Error inesperado de Entrada/Salida.");
+        }
     }
     
     @Override
