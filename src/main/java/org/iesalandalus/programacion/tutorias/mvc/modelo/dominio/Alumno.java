@@ -3,8 +3,9 @@ package org.iesalandalus.programacion.tutorias.mvc.modelo.dominio;
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.io.Serializable;
 
-public class Alumno {    
+public class Alumno implements Serializable {
     private static final String ER_NOMBRE = "^([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ\\']+[\\s])+([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ\\'])+[\\s]?([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ\\'])?$";
     private static final String PREFIJO_EXPEDIENTE  = "SP_";
     private static final String ER_CORREO = ".+@[a-zA-Z]+\\.[a-zA-Z]+";

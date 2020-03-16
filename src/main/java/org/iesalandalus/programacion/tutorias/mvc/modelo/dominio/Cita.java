@@ -1,11 +1,12 @@
 package org.iesalandalus.programacion.tutorias.mvc.modelo.dominio;
 
+import java.io.Serializable;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 import java.time.temporal.ChronoUnit;
 
-public class Cita {
+public class Cita implements Serializable {
     private Sesion sesion;
     private Alumno alumno;
     public static final DateTimeFormatter FORMATO_HORA = DateTimeFormatter.ofPattern("HH:mm:ss");
