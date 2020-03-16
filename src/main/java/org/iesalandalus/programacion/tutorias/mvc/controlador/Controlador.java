@@ -23,11 +23,14 @@ public class Controlador implements IControlador {
     
     @Override
     public void comenzar() {
+        this.IModelo.comenzar();
         this.IVista.comenzar();
     }
     
     @Override
     public void terminar() {
+        this.IModelo.terminar();
+        System.out.println("Saliendo...");
     }
     
     // Insertar
