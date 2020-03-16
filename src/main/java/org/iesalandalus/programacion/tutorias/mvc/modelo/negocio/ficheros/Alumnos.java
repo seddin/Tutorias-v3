@@ -44,7 +44,7 @@ public class Alumnos implements org.iesalandalus.programacion.tutorias.mvc.model
         try (ObjectOutputStream salida = new ObjectOutputStream(new FileOutputStream(ficheroAlumnos))){
             for (Alumno alumno : this.alumnos)
                 salida.writeObject(alumno);
-            System.out.println("Fichero aulas escrito satisfactoriamente.");
+            System.out.println("Fichero alumnos escrito satisfactoriamente.");
         } catch (FileNotFoundException e) {
             System.out.println("No puedo crear el fichero de alumnos.");
         } catch (IOException e) {
