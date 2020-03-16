@@ -94,11 +94,11 @@
     <position height="703" width="2058" x="135" y="708"/>    
     <display autosize="false" stereotype="false" sort-features="false" accessors="true"/>  
   </package>  
-  <package id="11" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.memoria" 
+  <package id="11" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/memoria" 
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/ficheros" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="288" width="1985" x="165" y="754"/>    
+    <position height="292" width="1985" x="165" y="743"/>    
     <display autosize="false" stereotype="false" sort-features="false" accessors="true"/>  
   </package>  
   <interface id="12" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.IProfesores" 
@@ -112,9 +112,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="13" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.memoria.Profesores" 
+  <class id="13" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros.Profesores" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/memoria/Profesores.java" 
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/ficheros/Profesores.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="327" y="902"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -123,9 +123,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.memoria.Tutorias" 
+  <class id="14" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros.Tutorias" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/memoria/Tutorias.java" 
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/ficheros/Tutorias.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="638" y="902"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -134,9 +134,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="15" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.memoria.Sesiones" 
+  <class id="15" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros.Sesiones" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/memoria/Sesiones.java" 
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/ficheros/Sesiones.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="956" y="902"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -145,9 +145,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="16" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.memoria.Citas" 
+  <class id="16" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros.Citas" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/memoria/Citas.java" 
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/ficheros/Citas.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1320" y="902"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -156,9 +156,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="17" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.memoria.Alumnos" 
+  <class id="17" language="java" name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros.Alumnos" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/memoria/Alumnos.java" 
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/ficheros/Alumnos.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1662" y="902"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -168,9 +168,9 @@
     </display>  
   </class>  
   <class id="18" language="java" 
-    name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.memoria.FactoriaFuenteDatosMemoria" 
+    name="org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros.FactoriaFuenteDatosFicheros" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/memoria/FactoriaFuenteDatosMemoria.java" 
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/modelo/negocio/ficheros/FactoriaFuenteDatosFicheros.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1979" y="902"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -278,22 +278,22 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <package id="28" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vistaTexto" project="TutoriasResuelto"
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vistaTexto" binary="false"
+  <package id="28" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vista" project="TutoriasResuelto" 
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vista" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="937" width="1138" x="-100" y="2814"/>    
     <display autosize="false" stereotype="false" sort-features="false" accessors="true"/>  
   </package>  
-  <package id="29" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vistaTexto.texto"
+  <package id="29" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vista.texto" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vistaTexto/texto" binary="false"
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vista/texto" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="734" width="1018" x="-44" y="2990"/>    
     <display autosize="false" stereotype="false" sort-features="false" accessors="true"/>  
   </package>  
-  <class id="30" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vistaTexto.texto.Consola"
+  <class id="30" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vista.texto.Consola" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vistaTexto/texto/Consola.java"
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vista/texto/Consola.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="105" y="3374"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -302,9 +302,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="31" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vistaTexto.texto.VistaTexto"
+  <class id="31" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vista.texto.VistaTexto" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vistaTexto/texto/VistaTexto.java"
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vista/texto/VistaTexto.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="803" y="3374"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -313,9 +313,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="32" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vistaTexto.texto.Opcion"
+  <enumeration id="32" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vista.texto.Opcion" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vistaTexto/texto/Opcion.java"
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vista/texto/Opcion.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="420" y="3374"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -324,9 +324,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <enumeration id="33" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vistaTexto.FactoriaVista"
+  <enumeration id="33" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vista.FactoriaVista" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vistaTexto/FactoriaVista.java"
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vista/FactoriaVista.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="800" y="2916"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -345,9 +345,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="35" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vistaTexto.IVista"
+  <interface id="35" language="java" name="org.iesalandalus.programacion.tutorias.mvc.vista.IVista" 
     project="TutoriasResuelto" 
-    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vistaTexto/IVista.java" binary="false"
+    file="/TutoriasResuelto/src/main/java/org/iesalandalus/programacion/tutorias/mvc/vista/IVista.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="421" y="2915"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
@@ -357,216 +357,272 @@
     </display>  
   </interface>  
   <realization id="36">    
-    <end type="SOURCE" refId="31"/>    
-    <end type="TARGET" refId="35"/>  
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="24"/>  
   </realization>  
   <association id="37">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="38" name="profesor">        
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="38" name="citas">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="39" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
+    <end type="TARGET" refId="23" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="40">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="41" name="alumno">        
+  <realization id="40">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="35"/>  
+  </dependency>  
+  <association id="42">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="43" name="tutoria">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="42" minimum="0" maximum="1">        
+      <multiplicity id="44" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="46" name="coleccionSesiones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="49" name="coleccionAlumnos">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="50" minimum="0" maximum="2147483647">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="43">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="44" name="coleccionAlumnos"/>      
-      <multiplicity id="45" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="46">    
-    <end type="SOURCE" refId="20" navigable="false">      
-      <attribute id="47" name="citas"/>      
-      <multiplicity id="48" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="23" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="49">    
-    <end type="SOURCE" refId="16"/>    
-    <end type="TARGET" refId="23"/>  
-  </realization>  
-  <dependency id="50">    
-    <end type="SOURCE" refId="34"/>    
-    <end type="TARGET" refId="35"/>  
-  </dependency>  
   <association id="51">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="52" name="controlador"/>      
-      <multiplicity id="53" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="27" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="54">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="55" name="vistaTexto"/>
-      <multiplicity id="56" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="35" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="57">    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="58" name="coleccionTutorias"/>      
-      <multiplicity id="59" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="60">    
-    <end type="SOURCE" refId="15" navigable="false">      
-      <attribute id="61" name="coleccionSesiones"/>      
-      <multiplicity id="62" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="63">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="27"/>  
-  </realization>  
-  <association id="64">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="65" name="modelo"/>      
-      <multiplicity id="66" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="19" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="67">    
-    <end type="SOURCE" refId="32" navigable="false">      
-      <attribute id="68" name="vistaTexto"/>
-      <multiplicity id="69" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="31" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="70">    
     <end type="SOURCE" refId="20" navigable="false">      
-      <attribute id="71" name="alumnos"/>      
-      <multiplicity id="72" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="24" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <dependency id="73">    
-    <end type="SOURCE" refId="34"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <dependency id="74">    
-    <end type="SOURCE" refId="34"/>    
-    <end type="TARGET" refId="19"/>  
-  </dependency>  
-  <realization id="75">    
-    <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="22"/>  
-  </realization>  
-  <association id="76">    
-    <end type="SOURCE" refId="13" navigable="false">      
-      <attribute id="77" name="coleccionProfesores"/>      
-      <multiplicity id="78" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="79">    
-    <end type="SOURCE" refId="20" navigable="false">      
-      <attribute id="80" name="tutorias"/>      
-      <multiplicity id="81" minimum="0" maximum="1"/>    
+      <attribute id="52" name="tutorias">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="53" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="21" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="82">    
-    <end type="SOURCE" refId="20"/>    
-    <end type="TARGET" refId="26"/>  
-  </dependency>  
-  <association id="83">    
-    <end type="SOURCE" refId="16" navigable="false">      
-      <attribute id="84" name="coleccionCitas"/>      
-      <multiplicity id="85" minimum="0" maximum="2147483647"/>    
+  <association id="54">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="55" name="alumnos">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="56" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="24" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="86">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="12"/>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <realization id="58">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="27"/>  
   </realization>  
-  <realization id="87">    
+  <association id="59">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="60" name="profesor">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="61" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="63" name="coleccionTutorias">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="65">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <dependency id="66">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <association id="67">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="68" name="coleccionProfesores">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="69" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="70">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <realization id="71">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="35"/>  
+  </realization>  
+  <association id="72">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="73" name="sesion">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="74" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="76" name="sesiones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="77" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="78">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <realization id="79">    
     <end type="SOURCE" refId="18"/>    
     <end type="TARGET" refId="26"/>  
   </realization>  
-  <realization id="88">    
-    <end type="SOURCE" refId="20"/>    
-    <end type="TARGET" refId="19"/>  
-  </realization>  
+  <association id="80">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="81" name="vista">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="82" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="84" name="modelo">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="85" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="86">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="87" name="controlador">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="88" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <association id="89">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="90" name="sesion">        
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="90" name="vista">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="91" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="35" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="92">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="21"/>  
-  </realization>  
+  <dependency id="92">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
   <association id="93">    
-    <end type="SOURCE" refId="20" navigable="false">      
-      <attribute id="94" name="sesiones"/>      
-      <multiplicity id="95" minimum="0" maximum="1"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="94" name="alumno">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="95" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="22" navigable="true"/>    
+    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="96">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="97" name="tutoria">        
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="97" name="profesores">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="98" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="99">    
-    <end type="SOURCE" refId="20" navigable="false">      
-      <attribute id="100" name="profesores"/>      
-      <multiplicity id="101" minimum="0" maximum="1"/>    
-    </end>    
     <end type="TARGET" refId="12" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="100" name="coleccionCitas">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="101" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <realization id="102">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="24"/>  
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
   </realization>  
   <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
