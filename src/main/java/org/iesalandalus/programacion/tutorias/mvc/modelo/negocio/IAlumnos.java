@@ -6,6 +6,10 @@ import javax.naming.OperationNotSupportedException;
 import java.util.List;
 
 public interface IAlumnos {
+    void comenzar();
+
+    void terminar();
+
     List<Alumno> get();
 
     int getTamano();

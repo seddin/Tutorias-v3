@@ -1,9 +1,9 @@
-package org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.memoria;
+package org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.ficheros;
 
 import org.iesalandalus.programacion.tutorias.mvc.modelo.negocio.*;
 
-public class FactoriaFuenteDatosMemoria implements IFuenteDatos {
-    public FactoriaFuenteDatosMemoria () {
+public class FactoriaFuenteDatosFicheros implements IFuenteDatos {
+    public FactoriaFuenteDatosFicheros() {
 
     }
 
